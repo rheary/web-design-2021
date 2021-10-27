@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <title>forms</title>
+	</head>
+	
+	<body>
+	
+	    <h1>Forms</h1>
+		<br>
+		<form method="post" action="mailto:mystudentid@ncirl.ie"/>
+		    <label>Name:</label>
+			<input name="name" type="text" size=25/>
+			
+			<br>
+			<label>Comments: </label>
+			<br />
+			<textarea name="comments"  rows="4" cols="36">
+			Comments here
+			</textarea>
+			
+			<br>
+			<br>
+			<label>Ketchup</label>
+                <input name ="topping" type ="checkbox" value ="Ketchup" />
+            <label>Mustard</label>
+                <input name = "toppings" type = "checkbox" value = "Mustard" />
+            <label>Onions</label>
+                <input name = "toppings" type = "checkbox" value = "Onions" />
+			
+		
+			<p>Pizza</p>
+			<label>Ham</label>
+                <input type ="radio" name ="toppings" value ="ham" />
+            <label>Veggi</label>
+                <input type ="radio" name = "toppings"  value = "Veggi" />
+            <label>Banana</label>
+                <input type ="radio" name = "toppings"  value = "Banana" />
+			
+			<br>
+			<br>
+			<br>
+			<p> Arts </p>
+			<label for="art"> Choose a product: </label>
+                
+			<select name= "art">
+                <option value="canvas"> Canvas</option>
+                <option value="paintbrush"> Paint brush</option>
+				<option value="sketchpad"> Sketch pad</option>
+				<option value="paint"> Paint</option>
+			</select>
+			<br>
+            <input type="submit" />
+			
+			
+		</form>
+		
+	</body>
+</html>
